@@ -140,7 +140,7 @@ public class ActualLoadingScreen {
             icon = new ImageIcon(
                 Files.exists(backgroundPath)
                     ? backgroundPath.toUri().toURL()
-                    : ClassLoader.getSystemResource("assets/mod-loading-screen/" + (RUNNING_ON_QUILT ? "quilt-banner.png" : "aof4.png"))
+                    : ClassLoader.getSystemResource("assets/mod-loading-screen/" + (RUNNING_ON_QUILT ? "quilt-banner.png" : "xpixel.png"))
             );
             icon.setImage(icon.getImage().getScaledInstance(960, 540, Image.SCALE_SMOOTH));
         } catch (Exception e) {
